@@ -11,6 +11,9 @@
     font-weight: 600;
     font-size: 35pt;
 }
+.intro-text p span.highlights{
+    background-color: #05165a;
+}
 .image{
     height: 450px;
     position: relative;
@@ -44,10 +47,12 @@
 
 .image .img-container .text-name section{
     color: rgba(255, 2555, 255, .9);
-    width: 50%;
+    width: auto;
+    /* background-color: red; */
     font-size: small;
     margin: 20px 0px;
 }
+
 .image .img-container .text-name section div.link{
     margin: 30px 0px;
 }
