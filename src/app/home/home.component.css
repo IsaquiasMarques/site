@@ -1,0 +1,81 @@
+.intro-text{
+    /* background-color: red; */
+    padding: 10px;
+}
+.intro-text p{
+    text-align: center;
+    font-size: 25pt;
+    text-transform: uppercase;
+}
+.intro-text p span{
+    font-weight: 600;
+    font-size: 35pt;
+}
+.image{
+    height: 450px;
+    position: relative;
+    margin-top: 50px;
+}
+.image .img-container{
+    /* background-color: red; */
+    padding: 20px;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+    border-radius: 10px;
+    box-shadow: 0px 18px 28px #00000008
+}
+.image .img-container img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.image .img-container .text-name{
+    position: absolute;
+    padding: 50px;
+}
+.image .img-container .text-name p{
+    color: rgba(255, 2555, 255, .2);
+    font-size: 55pt;
+    text-transform: uppercase;
+}
+
+.image .img-container .text-name section{
+    color: rgba(255, 2555, 255, .9);
+    width: 50%;
+    font-size: small;
+    margin: 20px 0px;
+}
+.image .img-container .text-name section div.link{
+    margin: 30px 0px;
+}
+.image .img-container .text-name section div.link a{
+    color: #fff;
+    font-size: 15pt;
+    transition: .3s;
+}
+
+.image .img-container .text-name section div.link a:hover{
+    font-size: 16pt;
+    text-align: center;
+}
+
+.image .img-container .icons{
+    position: absolute;
+    z-index: 10;
+    right: 70px;
+    bottom: 50px;
+}
+.image .img-container .icons ul{}
+.image .img-container .icons ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0px 10px;
+}
+.image .img-container .icons ul li a{
+    color: #fff;
+    font-style: normal;
+    font-size: 15pt;
+}
