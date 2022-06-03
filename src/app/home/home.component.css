@@ -26,7 +26,7 @@
     overflow: hidden;
     position: relative;
     border-radius: 10px;
-    box-shadow: 0px 18px 28px #00000008
+    box-shadow: 0px 18px 28px #00000008;
 }
 .image .img-container img{
     width: 100%;
@@ -46,11 +46,13 @@
 }
 
 .image .img-container .text-name section{
-    color: rgba(255, 2555, 255, .9);
     width: auto;
     /* background-color: red; */
     font-size: small;
     margin: 20px 0px;
+}
+.image .img-container .text-name section span{
+    color: rgba(255, 2555, 255, .9);
 }
 
 .image .img-container .text-name section div.link{
@@ -80,7 +82,9 @@
     margin: 0px 10px;
 }
 .image .img-container .icons ul li a{
-    color: #fff;
     font-style: normal;
     font-size: 15pt;
+}
+.image .img-container .icons ul li a span{
+    color: #fff;
 }
