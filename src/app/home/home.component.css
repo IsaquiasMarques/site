@@ -40,8 +40,8 @@
     padding: 50px;
 }
 .image .img-container .text-name p{
-    color: rgba(255, 2555, 255, .2);
-    font-size: 55pt;
+    color: rgba(255, 255, 255, .2);
+    font-size: 75px;
     text-transform: uppercase;
 }
 
@@ -59,7 +59,7 @@
 }
 .image .img-container .text-name section div.link a{
     color: #fff;
-    font-size: 15pt;
+    font-size: 15px;
     transition: .3s;
 }
 
